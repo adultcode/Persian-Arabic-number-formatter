@@ -12,7 +12,7 @@ and the Flutter guide for
 -->
 <img src="[https://flutter-learn.ir/wp-content/uploads/2022/11/music.png](https://flutter-learn.ir/wp-content/uploads/2023/09/untitled.gif)" >
 
-## Persian/Arabic number input formatter
+## Persian2/Arabic number input formatter
 
 If you use the digitsOnly formatter option on a TextField in Flutter, it only works with English digits, and you can't use Persian/Arabic numbers.
 However, if you don't use any input formatter, then you can't convert Persian/Arabic digits to an integer
