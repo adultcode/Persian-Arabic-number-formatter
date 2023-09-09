@@ -10,7 +10,7 @@ For general information about developing packages, see the Dart guide for
 and the Flutter guide for
 [developing packages and plugins](https://flutter.dev/developing-packages).
 -->
-<img src="[https://flutter-learn.ir/wp-content/uploads/2022/11/music.png](https://flutter-learn.ir/wp-content/uploads/2023/09/untitled.gif)" >
+<img src="https://flutter-learn.ir/wp-content/uploads/2023/09/untitled.gif" >
 
 ## Persian/Arabic number input formatter
 
@@ -18,22 +18,23 @@ If you use the digitsOnly formatter option on a TextField in Flutter, it only wo
 However, if you don't use any input formatter, then you can't convert Persian/Arabic digits to an integer
 
 
-## Getting started
+## How to use
 
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
+Add this line to your file
+````
+package:persian_input/validator/number_validator.dart
+````
 
-## Usage
 
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder.
+Now simply add PersianNumberValidator class in inputFormatters list.
 
-```dart
-const like = 'sample';
-```
-
-## Additional information
-
-TODO: Tell users more about the package: where to find more information, how to
-contribute to the package, how to file issues, what response they can expect
-from the package authors, and more.
+````
+TextField(
+            inputFormatters: [
+                  PersianNumberValidator()
+                ],
+                decoration: const InputDecoration(
+                    hintText: 'With persian formatter'
+                ),
+              )
+````
