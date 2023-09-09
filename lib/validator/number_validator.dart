@@ -17,7 +17,7 @@ class PersianNumberValidator implements TextInputFormatter{
 
       if(entered_value!=null){
 
-        String new_value = PersianUnicode.replaceCharAtIndex(newValue.text, newValue.text.length-1, entered_value!);
+        String new_value = PersianUnicode.replaceCharAtIndex(newValue.text, newValue.text.length-1, entered_value);
 
 
         return TextEditingValue(text: new_value,selection: TextSelection.fromPosition(
