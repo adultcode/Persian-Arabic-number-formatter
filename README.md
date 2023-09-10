@@ -10,7 +10,7 @@ For general information about developing packages, see the Dart guide for
 and the Flutter guide for
 [developing packages and plugins](https://flutter.dev/developing-packages).
 -->
-<img src="https://flutter-learn.ir/wp-content/uploads/2023/09/untitled.gif" >
+![](https://flutter-learn.ir/wp-content/uploads/2023/09/untitled.gif)
 
 ## Persian/Arabic number input formatter
 
@@ -30,11 +30,11 @@ Now simply add PersianNumberValidator class in inputFormatters list.
 
 ````
 TextField(
-            inputFormatters: [
-                  PersianNumberValidator()
-                ],
-                decoration: const InputDecoration(
-                    hintText: 'With persian formatter'
-                ),
-              )
+inputFormatters:[
+PersianNumberValidator()
+],
+decoration: const InputDecoration(
+hintText: 'With persian formatter'
+   ),
+ )
 ````
