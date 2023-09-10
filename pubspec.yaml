@@ -1,11 +1,14 @@
 name: persian_input
 description: Flutter Persian/Arabic number formatter
-version: 0.0.1
+version: 0.2.1
 homepage: https://github.com/hharddy/Persian-Arabic-number-formatter
 
 environment:
   sdk: '>=3.0.6 <4.0.0'
   flutter: ">=1.17.0"
+
+
+flutter:
 
 dependencies:
   flutter:
@@ -20,18 +23,8 @@ dev_dependencies:
 # following page: https://dart.dev/tools/pub/pubspec
 
 # The following section is specific to Flutter packages.
-flutter:
 
 
-platforms:
-  ios:
-    min-deployment-target: 12.0
-  android:
-    minSdkVersion: 16
-  web:
-    compilers:
-      dart2js:
-        enabled: true
 
   # To add assets to your package, add an assets section, like this:
   # assets:
