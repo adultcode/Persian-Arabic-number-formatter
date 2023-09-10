@@ -10,7 +10,12 @@ For general information about developing packages, see the Dart guide for
 and the Flutter guide for
 [developing packages and plugins](https://flutter.dev/developing-packages).
 -->
-![](https://flutter-learn.ir/wp-content/uploads/2023/09/untitled.gif)
+<video src="https://flutter-learn.ir/wp-content/uploads/2023/09/ezgif-2-394adc0bae.mp4" controls="controls">
+</video>
+
+
+https://github.com/hharddy/Persian-Arabic-number-formatter/assets/17101519/3163c772-c9ea-4a3a-b578-bb7a3a14adf1
+
 
 ## Persian/Arabic number input formatter
 
