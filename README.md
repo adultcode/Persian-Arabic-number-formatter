@@ -14,7 +14,7 @@ and the Flutter guide for
 
 
 
-![The example app running in iOS](https://imageupload.io/ib/pdXHWxruw2c5zx2_1694364682.gif)
+![The example app running in Android](https://i.postimg.cc/c48BzJ3W/untifftled.gif)
 
 ## Persian/Arabic number input formatter
 
